@@ -1,0 +1,13 @@
+<section id="create-answer">
+  <h2>
+    Answer Question
+  </h2>
+
+  <%= form_for [@question, Answer.new], :remote => true do |f| %>
+     <%=f.text_area	 :text %>
+      <%= f.submit "Add Answer" , :id => "answerButton", :class=> 'btn btn-info', data: {text: "Add Answer"} %>
+  <% end %>
+</section>
+
+
+

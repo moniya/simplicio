@@ -1,0 +1,27 @@
+@mixin loginpagewide {
+  #login-page {
+    width: 100%;
+
+    h2{
+      margin-top: 111px;
+    }
+
+    input[type="password"], input[type="email"], input[type="text"], textarea {
+      width: 40%;
+    }
+    
+    #actions {
+      #submit-wrap {
+        margin-left: 21%;
+        width: 20%;
+      }
+      #remember-me {
+        width: 52%;
+        input {
+          width: 3%
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+// To configure blueprint, edit the partials/base.sass file.
+@import "partials/modules";
+@import "partials/beginwide";
+@import "partials/indexpagewide";
+@import "partials/postpagewide";
+@import "partials/containerbase";
+@import "partials/asidewide";
+@import "partials/loginpagewide";
+@import "partials/profilepagewide";
+@import "compass";
+
+@include beginwide;
+@include indexpagewide;
+@include postpagewide;
+@include containerbase;
+@include loginpagewide;
+@include asidewide;
+@include profilepagewide;
+
+
+nav {
+    font-size: calc-em(14px,16px);
+    .navbar {
+      .navbar-inner {
+        padding-left: percentage(180px/1440px);
+      }
+    }
+  }
+
+  .navbar .nav > li > a {
+    float: none;
+    padding: 9px 10px 11px;
+    line-height: 22px;
+    color: #C9C9C9;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .navbar-search {
+    padding-left: 30px;
+  }
+
+  .search-query {
+    width: 230px;
+  }

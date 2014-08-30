@@ -1,0 +1,22 @@
+<% activity = create_comment %>
+
+<div class="stream-item" data-ts=<%= activity.created_at.to_i %>>
+  <h3 class="caption">
+    <i class="icon-comment"></i>
+    <%= feed_image(activity) %>
+
+    <%= actor_link(activity) %>
+    <% if activity.data['question_title'] %>
+        <%= link_to "commented on a question", question_path(:id => activity.data['question_id'],
+                                                             :hash => "comment-#{activity.data['comment_id']}") %>
+    <% else %>
+        <%= link_to "commented on an answer", question_path(:id => activity.data['question_id'],
+                                                            :hash => "comment-#{activity.data['comment_id']}") %>
+    <% end %>
+    <span>by
+      <%= recipient_link(activity) %>
+    </span>
+    . <span class="activity-date"><%= activity.created_at.my_format %></span>
+  </h3>
+
+</div>

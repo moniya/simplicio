@@ -1,0 +1,20 @@
+<section id="share">
+  <h3>
+    <i class="icon-bell"></i> Share
+  </h3>
+
+  <div>
+
+    <% message = []
+       message << @question.title.truncate(50)
+       message << "via @nerdlock"
+    %>
+    <div id="twitter-wrap">
+      <a id="twitter" href="http://twitter.com/home?status=<%= message.join(" ") %>" title="Click to share this post on Twitter"></a>
+    </div>
+
+    <div id="fb-wrap">
+      <a id="fb" href="http://www.facebook.com/sharer.php?u=<%= question_url @question %>&t=<%= @question.title %>"></a>
+    </div>
+  </div>
+</section>

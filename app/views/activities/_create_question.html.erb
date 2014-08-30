@@ -1,0 +1,25 @@
+<% activity = create_question %>
+
+<div class="stream-item" data-ts=<%= activity.created_at.to_i %>>
+  <h3 class="caption">
+    <i class="icon-bullhorn"></i>
+
+    <%= feed_image(activity) %>
+    <%= actor_link(activity) %>
+
+    <%= link_to "asked a question", question_path(:id => activity.data['question_id']) %>
+
+    . <span class="activity-date"><%= activity.created_at.my_format %></span></h3>
+  <h4 class="post-title">
+    <%= link_to activity.data['question_title'], question_path(:id => activity.data['question_id']) %>
+  </h4>
+
+  <div class="stream-content">
+    <div class="stream-main-content">
+
+      <div class="text">
+        <%=  activity.data['excerpt'].html_safe %>
+      </div>
+    </div>
+  </div>
+</div>

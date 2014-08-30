@@ -1,0 +1,7 @@
+@mixin postpagewide {
+  #post-page {
+    #answers .comments {
+      width: 85%;
+    }
+  }
+}

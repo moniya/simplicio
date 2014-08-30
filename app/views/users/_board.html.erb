@@ -1,0 +1,37 @@
+<section class="board">
+  <div id="h1-wrap">
+    <h1 class="head">
+      <%= @user.full_name %> </h1>
+
+    <%= follow_links %>
+
+  </div>
+  <div id="image-and-bio">
+    <div id="image">
+      <%= image_tag @user.avatar.url, size: "60x60" %>
+      <div>
+      <%= link_to "Edit Profile", edit_profile_path if @user == current_user %>
+      </div>
+    </div>
+
+    <div id="bio">
+      <p id="Department">
+        <span class="label">Department:</span> <%= @user.department %>
+      </p>
+
+      <p id="school">
+        <span class="label">School:</span> <%= @user.school %>
+      </p>
+
+      <p id="description">
+        <span class="label">Bio:</span> <%= @user.bio %>
+      </p>
+
+      <p id="email">
+        <span class="label">Email:</span> <%= @user.email %>
+      </p>
+    </div>
+
+  </div>
+
+</section>

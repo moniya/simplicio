@@ -1,0 +1,16 @@
+<% activity = create_vote %>
+<div class="stream-item" data-ts=<%= activity.created_at.to_i %>>
+  <h3 class="caption">
+    <i class="icon-heart"></i>
+
+    <%=	 feed_image(activity) %>
+     <%= actor_link(activity) %>
+    <%= link_to "voted up a #{activity.data['voteable_type'].downcase}", question_path(:id => activity.data['question_id']) %>
+    <span>by
+      <%= recipient_link(activity) %>
+
+    </span>
+    . <span class="activity-date"><%= activity.created_at.my_format %></span>
+  </h3>
+
+</div>

@@ -1,0 +1,13 @@
+(function () {
+    <% if @activities.empty? %>
+        $('.pager').hide();
+    <% else %>
+        $("<%= j(render @activities )%>")
+            .insertAfter(".stream-item:last")
+            .hide()
+            .slideDown();
+        $("#more-feed").text('more');
+    <% end %>
+
+
+})();

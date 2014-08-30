@@ -1,0 +1,6 @@
+@mixin asidewide {
+  aside {
+    @include mcolumn(percentage(270px/910px), true);
+  }
+
+}

@@ -1,0 +1,27 @@
+<h2>Sign up</h2>
+
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+
+  <div>
+  <%= f.text_field :first_name, :placeholder => "First Name"  %></div>
+
+  <div>
+  <%= f.text_field :last_name, :placeholder => "Last Name"  %></div>
+
+  <div>
+  <%= f.email_field :email, :placeholder => "Email"  %></div>
+
+  <div>
+  <%= f.password_field :password, :placeholder => "Password"  %></div>
+
+  <div>
+  <%= f.password_field :password_confirmation, :placeholder => "Password Again" %></div>
+
+  <div><%= f.submit "Sign up", class: "btn btn-info" %></div>
+<% end %>
+
+<%- if controller_name != 'sessions' %>
+    <h2 id="border"> <%= link_to "Sign in", new_session_path(resource_name) %><span id="rest"> if you already have an account.</span></h2> <br />
+
+<% end -%>

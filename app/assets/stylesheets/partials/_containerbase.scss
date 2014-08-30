@@ -1,0 +1,23 @@
+@mixin containerbase {
+  .content {
+    @include mcolumn(percentage(550px/910px), false);
+    margin-right: percentage(70px/910px);
+    h1 {
+      font-size: 17px;
+      border-bottom: 1px #ccc solid;
+    }
+    h2 {
+      font-size: 13px;
+      line-height: 1.5em;
+      border-bottom: 1px #ccc solid;
+    }
+    h3 {
+      line-height: 1em;
+      font-size: 13px;
+      margin-bottom: 5px;
+      small {
+        font-size: 11px;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<h2>Sign in to Nerdlock</h2>
+
+<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+    <div>
+      <%= f.email_field :email, :placeholder => "Email" %></div>
+
+    <div>
+      <%= f.password_field :password, :placeholder => "Password" %></div>
+    <div id="actions">
+      <div id="submit-wrap"><%= f.submit "Sign in", :class => "btn btn-info" %></div>
+
+      <% if devise_mapping.rememberable? -%>
+          <div id="remember-me"><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+      <% end -%>
+    </div>
+<% end %>
+<div id="links">
+  <%= render "links" %></div>

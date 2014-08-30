@@ -1,0 +1,23 @@
+
+@mixin mcolumnbase($last){
+  $lasttmp: false;
+  float: left;
+  $lasttmp: $last;
+  @if $last == true {
+    @include clearfix;
+  }
+}
+
+@mixin mcolumn($width:100%, $last:true){
+  width: $width;
+  @include mcolumnbase($last);
+}
+
+@function calc-em($target-px, $context) {
+  @return ($target-px / $context) * 1em;
+}
+
+$body-color: #0D0D0D;
+$body-link-color: #00438A;
+$uni-font-size: 16px;
+$body-font-size: calc-em(13px, $uni-font-size);

@@ -1,0 +1,16 @@
+<% title ["#{@user.first_name}'s", "profile"].join(' ') %>
+
+<div id="profile-page" data-user=<%=	 @user.id %>>
+  <div id="content">
+    <%= render :partial => 'users/board' %>
+    <div class="column">
+      <%= render :partial => 'users/connections' %>
+      <%= render :partial => 'users/questions' %>
+      <%= render :partial => 'users/reputation' %>
+    </div>
+    <div class="column second">
+      <%= render :partial => 'users/activity' %>
+      <%= render :partial => 'users/answers' %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,158 @@
+@mixin profilepage {
+  #profile-page {
+    @include mcolumn(100%);
+
+    #edit {
+      @include mcolumn(100%);
+      input[type="password"], input[type="email"], input[type="text"], textarea {
+        width: 92%;
+        font-size: 1.1em;
+        height: 2em;
+      }
+      textarea {
+        height: 4em;
+      }
+
+      label {
+        margin-bottom: -12px;
+        color: #0088cc;
+        font-weight: bold;
+      }
+    }
+    #h1-wrap {
+      @include mcolumn(100%);
+      border-bottom: 1px solid #EEE;
+      padding-bottom: 5px;
+      h1 {
+        border: none;
+        width: 60%;
+        float: left;
+        font-variant: small-caps;
+        font-size: 20px;
+        line-height: 1em;
+        padding-left: 0;
+      }
+      button {
+        margin-top: 7px;
+        float: right;
+      }
+    }
+    h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      padding-left: 0px;
+    }
+    h3.head {
+      background: #3A3A3A;
+      color: #EEE;
+    }
+    h4 {
+      font-size: 13px;
+      margin-left: 5px;
+      font-weight: normal;
+      line-height: 1.5;
+    }
+    h1, h2, h3 {
+      font-size: 13px;
+      margin-bottom: 5px;
+      line-height: 24px;
+      padding-left: 5px;
+      //border-bottom: 1px solid #EEE;
+    }
+    .board {
+      @include mcolumn(99%);
+
+      margin-bottom: 5px;
+      border-top: 1px solid #DDD;
+      border-bottom: 1px #EEE solid;
+      padding-top: 2px;
+      padding-bottom: 0px;
+
+      #follow-btn {
+        float:right;
+      }
+      #image-and-bio {
+        @include mcolumn(100%);
+
+        #image {
+          @include mcolumn(30%, false);
+        }
+        #bio {
+          @include mcolumn(70%);
+        }
+      }
+
+      #description {
+        @include mcolumn(100%);
+      }
+
+    }
+    .column {
+      @include mcolumn(100%);
+
+      .widget {
+        @include mcolumn(99%);
+        border: 1px #E3E3E3 solid;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+
+        .rep-lbl {
+          font-weight: bold;
+        }
+        .question-block {
+          font-weight: bold;
+        }
+        .answer-block {
+          border-left: 3px solid #239DCD;
+          margin-left: 5px;
+          padding-left: 5px;
+          margin-top: 5px;
+          color: #333;
+        }
+        ul {
+          @include no-bullets;
+          padding-left: 5px;
+          margin-left: 0;
+          li {
+            margin-bottom: 5px;
+            .owner-name {
+              margin-left: 5px;
+            }
+            a {
+              font-weight: bold;
+              color: #454545;
+            }
+          }
+        }
+        .piclist {
+          margin-bottom: 0;
+          @include mcolumn(100%);
+
+          li {
+            float: left;
+            margin-right: 5px;
+          }
+        }
+
+      }
+      #answers {
+        ul {
+          li {
+            margin-bottom: 8px;
+            color: #454545;
+            .date {
+              font-size: 0.85em;
+            }
+            a {
+              color: #454545;
+            }
+          }
+        }
+      }
+    }
+    .second {
+      @include mcolumn(100%);
+    }
+
+  }
+}

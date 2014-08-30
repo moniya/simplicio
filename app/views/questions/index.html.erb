@@ -1,0 +1,26 @@
+<div id="index-page">
+  <div class="content">
+    <div id="h1-wrap">
+      <h1>
+        Newest Questions
+      </h1>
+      <button id="ask-question-btn" class="btn btn-danger">
+        Ask Question
+      </button>
+    </div>
+    <%= render 'new_question' %>
+    <%= render @questions %>
+    <ul class="pager">
+      <li>
+        <%=	 link_to "show more", questions_path, id: "more", class: "more" %>
+      </li>
+    </ul>
+  </div>
+  <aside>
+    <h2>
+      Dashboard</h2>
+
+    <%= render 'dashboard/top_tags' %>
+    <%= render 'dashboard/top_users' %>
+  </aside>
+</div>

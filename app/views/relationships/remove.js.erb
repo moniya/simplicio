@@ -1,0 +1,9 @@
+(function () {
+    var fbtn = $("#follow-btn");
+    var txt = fbtn.text();
+    fbtn.removeClass("disabled")
+        .addClass('btn-success');
+
+    fbtn.text(txt.replace("Unfollow", "Follow"));
+    fbtn.data("action", "follow")
+})();

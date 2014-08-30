@@ -1,0 +1,14 @@
+<section id="tags">
+  <h3>
+    <i class="icon-tags"></i> Tags
+  </h3>
+
+  <ul>
+    <% @question.tags.sort_by{|t| t.taggings_count}.reverse.each do |tag| %>
+        <li>
+
+          <%= link_to "#{tag.name} [#{tag.taggings_count}]", search_path(:query => "tag:#{tag.name}"), {:class => "badge badge-inverse tag"} %>
+        </li>
+    <% end %>
+  </ul>
+</section>

@@ -1,0 +1,31 @@
+<% cache ['v2', answer] do %>
+    <article class="answer post" id="answer-<%= answer.id %>" data-id=<%= answer.id %>>
+      <div class="vote">
+        <%= link_to answer.votes_count, answer_votes_path(:answer_id => answer.id), :method => :post, :remote => true, :id => "vote_#{Post}_#{answer.id}", :class => "votelink badge #{badge_color(current_user, answer)}" %>
+
+        <div class="photo">
+          <%= image_tag answer.user.avatar.thumb.url, :alt => '' %>
+        </div>
+      </div>
+      <div class="core">
+        <h3>
+          <%= link_to answer.user.full_name, {:controller => 'users', :action => 'show', :id => answer.user.id} %>
+          <%= link_to "[+#{answer.user.score}]", {:controller => 'users', :action => 'show', :id => answer.user.id}, {:class => "rep"} %>
+        </h3>
+
+        <p>
+          <%= raw answer.text %> </p>
+
+        <div class="action-bar"></div>
+        <section class="comments">
+          <h4>
+            <i class="icon-comment"></i> <%= content_tag(:a, pluralize(answer.comments.size, "comment"), :href => "#", :class => "toggle-comments") %>
+            .
+            <i class="icon-time"></i>
+            <small><%= answer.created_at.my_format %></small>
+          </h4>
+          <%= render :partial => 'questions/comments', :locals => {:answer => answer, :comments => answer.comments} %>
+        </section>
+      </div>
+    </article>
+<% end %>

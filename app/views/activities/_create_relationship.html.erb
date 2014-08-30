@@ -1,0 +1,11 @@
+<% activity = create_relationship %>
+
+<div class="stream-item" data-ts=<%= activity.created_at.to_i %>>
+  <h3 class="caption">
+    <i class="icon-globe"></i>
+    <%= feed_image(activity) %>
+    <%= follow_message(activity) %>
+    . <span class="activity-date"><%= activity.created_at.my_format %></span>
+  </h3>
+
+</div>

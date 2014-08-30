@@ -1,0 +1,131 @@
+@mixin indexpage {
+  #index-page {
+    @include mcolumn;
+    #ask-question-btn {
+      margin: 0;
+    }
+    #h1-wrap {
+      border-bottom: 1px solid #EEE;
+      padding-bottom: 5px;
+      @include clearfix;
+      h1 {
+        border: none;
+        width: 30%;
+        float: left;
+      }
+      .btn {
+        float: right;
+      }
+    }
+    #new-question {
+      float: left;
+      @include clearfix;
+      width: 100%;
+      display: none;
+      border-bottom: 1px #EEE solid;
+      form {
+        float: left;
+        @include clearfix;
+        width: 100%;
+
+        .field{
+          margin-top: 10px;
+        }
+        textarea, input[type="text"] {
+          width: 97%;
+        }
+        textarea{
+          height: 140px;
+        }
+        em{
+          color: gray;
+        }
+
+      }
+      #exit {
+        float: right;
+        margin-top: 0.2em;
+      }
+
+      h2 {
+        float: left;
+        margin-bottom: 10px;
+        border: none;
+      }
+      form {
+        margin-bottom: 5px;
+      }
+
+      #actions {
+        margin-top: 10px;
+        height: 30px;
+        position: relative;
+        #buttons {
+          position: absolute;
+          right: 0;
+        }
+      }
+    }
+    .question-summary {
+      $question-summary-width: 570px;
+      float: left;
+      @include clearfix;
+      margin-top: 5px;
+      width: 100%;
+      padding: 5px 0;
+      border-bottom: 1px #EEE solid;
+      margin-bottom: 5px;
+
+      .pic {
+        float: left;
+        margin-right: 25px;
+        padding-left: 5px;
+        width: percentage(15px/$question-summary-width);
+      }
+      .main {
+        float: left;
+        @include clearfix;
+        margin-right: 0;
+        width: percentage(500px/$question-summary-width);
+        .title {
+          line-height: 1.1em;
+          border-bottom: none;
+          margin-bottom: 5px;
+          a {
+            color: #0D0D0D;
+            font-weight: normal;
+            display: block;
+            text-decoration: none;
+          }
+          small {
+            color: #BFBFBF;
+            font-size: 10px;
+          }
+        }
+        .info-bar {
+          position: relative;
+          span {
+            margin-right: 5px;
+            color: #1A1A1A;
+            font-size: 10px;
+          }
+          .time {
+            color: #999;
+          }
+          .votes {
+            color: teal;
+          }
+          .user {
+            a {
+              color: gray;
+              font-weight: bold;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+
+

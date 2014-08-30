@@ -1,0 +1,20 @@
+<section>
+  <h3>
+   <i class="icon-certificate"></i> Popular Activities</h3>
+  <ul id="top-activities">
+    <% @popular_posts.each_with_index do |post, index| %>
+        <li>
+          <div class="rank"><%= index %></div>
+          <div class="text">
+            <% if post.type == "Question" %>
+                <%= link_to post.title, question_path(post) %>
+            <% else %>
+                <%= link_to post.question.title, question_path(post.question, :anchor => "answer-#{post.id}") %>
+            <% end %>
+
+          </div>
+          <div class="votes">[+<%= post.votes_count %>]</div>
+        </li>
+    <% end %>
+  </ul>
+</section>

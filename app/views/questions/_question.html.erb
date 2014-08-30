@@ -1,0 +1,20 @@
+<section class="question-summary" data-ts=<%=	 question.created_at.to_i %>>
+  <div class="pic">
+    <a class="profile" href="#">
+      <%= image_tag question.user.avatar.thumb.url, :alt => '' %>
+    </a>
+  </div>
+  <div class="main">
+    <div class="title">
+      <%= link_to question.title, question %>
+    </div>
+    <div class="info-bar">
+      <span class="votes">+<%= pluralize question.votes_count, 'vote' %> </span>
+      <span class="answers"><%= pluralize question.answers_count, 'answer' %> </span>
+      <span class="time"><%= question.created_at.my_format %> </span>
+      <span class="user">
+        <%= link_to question.user.full_name, {:controller => 'users', :action => 'show', :id => question.user.id} %>
+                </span>
+    </div>
+  </div>
+</section>

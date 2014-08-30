@@ -1,0 +1,33 @@
+(function () {
+    var selector = ".inner-wrap[data-answer-id=" + "<%= @comment.post_id %>" + "]";
+    var bg = $('.wrap').first().css('backgroundColor');
+    $("<%= j(render @comment )%>")
+            .appendTo(selector)
+            .hide()
+            .slideDown()
+            .animate({
+                backgroundColor:"#FFFFAD"
+            }, 5000)
+            .animate({
+                backgroundColor:bg
+            }, 15000)
+    ;
+
+    var commentCount =
+            $(selector)
+                    .find('article')
+                    .length;
+
+    $(selector)
+            .closest('.comments')
+            .find('.toggle-comments')
+            .text(commentCount + ' ' + (commentCount == 1 ? 'comment' : 'comments'));
+
+    var commentForm = $(selector).closest('.wrap').find("form")[0];
+    commentForm.reset();
+
+    $(commentForm).find('#comment-btn')
+            .addClass('btn-success')
+            .attr({value:'Submit', disabled:false});
+
+})();

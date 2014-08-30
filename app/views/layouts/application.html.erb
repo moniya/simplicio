@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nerdlock <%= [' : ', yield(:title)].join unless yield(:title).blank? %></title>
+  <meta name="viewport" content="user-scalable=no, width=device-width" />
+  <!--[if lt IE 9]>
+  <script type="text/javascript">
+      document.createElement("nav");
+      document.createElement("header");
+      document.createElement("footer");
+      document.createElement("section");
+      document.createElement("aside");
+      document.createElement("article");
+  </script>
+  <![endif]-->
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= stylesheet_link_tag "wide", :media => "all and (min-width: 960px)" %>
+  <%= javascript_include_tag "application" %>
+
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%= render 'navigation' %>
+<div id="container">
+  <%- if flash.notice %>
+      <div class="alert alert-success">
+        <button class="close" data-dismiss="alert">×</button>
+        <%= notice %></div>
+  <%- end %>
+  <%- if flash.alert %>
+      <div class="alert alert-error">
+        <%= alert %></div>
+  <%- end %>
+  <%= yield %>
+
+</div>
+
+</body>
+<footer></footer>
+<%= javascript_include_tag "bottom" %>
+
+<script>
+  $('#question_text').wysihtml5();
+  $('#answer_text').wysihtml5();
+</script>
+<script>
+  $(
+    function createUploader(){
+      var uploader = new qq.FileUploader({
+        element: document.getElementById('file-uploader-demo1'),
+        action: '/uploadimage',
+        debug: true,
+        onComplete: UploadSpace.complete
+      });
+  });
+
+  var UploadSpace = {
+    complete : function (id, fileName, responseJSON){
+      $('.bootstrap-wysihtml5-insert-image-url').val(responseJSON.imagelocation);
+    }
+  }
+</script>
+</html>
+
+
+
+
+
+
+

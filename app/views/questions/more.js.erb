@@ -1,0 +1,11 @@
+(function () {
+    <% if @questions.empty? %>
+           $('.pager').hide();
+    <% else %>
+        $("<%= j(render @questions )%>")
+            .insertAfter(".question-summary:last")
+            .hide()
+            .slideDown();
+        $("#more").text('more');
+    <% end %>
+})();

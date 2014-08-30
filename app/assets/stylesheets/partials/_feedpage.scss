@@ -1,0 +1,126 @@
+@mixin feedpage {
+  #feed-page {
+
+    aside {
+      ul#top-activities {
+        @include mcolumn;
+        margin-top: 10px;
+        li {
+          @include mcolumn;
+          border-bottom: 1px dotted #DBDBDB;
+          .rank {
+            @include mcolumn(percentage(0.5/6), false);
+
+            @include border-radius(25px);
+            margin-right: 5px;
+            width: 20px;
+            display: inline-block;
+            background: black;
+            color: #EEE;
+            height: 20px;
+            text-align: center;
+            line-height: 1.6;
+            font-family: tahoma;
+          }
+          .text {
+            @include mcolumn(percentage(4.5/6), false);
+
+          }
+          .votes {
+            @include mcolumn(percentage(0.5/6));
+
+            font-weight: normal;
+            a {
+              color: #00438A;
+            }
+          }
+        }
+      }
+    }
+    .content {
+
+      #stream {
+        @include mcolumn;
+
+        h2 {
+          font-size: 16px;
+          border-bottom: 1px solid #DDD;
+        }
+
+        .stream-item {
+          @include mcolumn;
+
+          padding: 10px 0;
+          border-bottom: 1px solid #eee;
+
+          .caption {
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 1.6em;
+            line-height: 1.3em;
+            margin-bottom: 2px;
+
+            i {
+              margin-right: 8px;
+            }
+            .owner-name {
+              font-weight: bold;
+              font-style: normal;
+              margin-left: 5px;
+            }
+            .activity-date {
+              font-family: tahoma;
+              font-size: 10px;
+              color: #5E5E5E;
+            }
+            a {
+              color: #1B7BA1;
+              &.user-link {
+                color: #666;
+              }
+            }
+          }
+          .post-title {
+            color: #0059B8;
+            font-size: 13px;
+            line-height: 1em;
+          }
+          .stream-content {
+            @include mcolumn;
+            margin-top: 5px;
+            .votes {
+              @include mcolumn(percentage(1/12), false);
+              font-family: tahoma;
+            }
+            .stream-main-content {
+              @include mcolumn(percentage(10.6/12));
+
+              border-left: 2px grey solid;
+              padding-left: 5px;
+              margin-left: 10px;
+              h4 {
+                line-height: 18px;
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                .by {
+                  font-weight: normal;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.notifications {
+      .content {
+        #stream {
+          .stream-item {
+            .post-title, .stream-content {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

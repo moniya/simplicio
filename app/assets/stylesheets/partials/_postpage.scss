@@ -1,0 +1,175 @@
+@mixin postpage {
+  #post-page {
+    @include mcolumn;
+    h1 {
+      border-bottom: 1px #ccc solid;
+    }
+    h2#answer-head {
+      margin-top: 0;
+      border-bottom: 1px #EEE solid;
+      margin-bottom: 9px;
+    }
+    .post {
+      @include mcolumn;
+      padding-top: 9px;
+      padding-bottom: 10px;
+      border-bottom: 1px #ccc solid;
+
+      .vote {
+        @include mcolumn(9%, false);
+        @media all and (min-width: 480px) {
+          width: 30px;
+        } margin-right: 3%;
+        .badge {
+          font-size: 1em;
+          float: right;
+        }
+        .photo {
+          margin-top: 5px;
+          float: right;
+        }
+
+      }
+      .core {
+        @include mcolumn(88%, false);
+        h3 {
+          line-height: 0.7em;
+          margin-bottom: 5px;
+          a {
+            font-size: 0.85em;
+          }
+          a.rep {
+            color: $body-color;
+            text-decoration: none;
+            font-size: 0.75em;
+            font-weight: lighter;
+
+          }
+        }
+        h4 {
+          i {
+            margin-top: 1.5px;
+          }
+        }
+        p {
+          margin-top: 0;
+        }
+        .action-bar {
+          @include mcolumn;
+
+          .toggle-comments {
+            font-size: .9em;
+          }
+        }
+      }
+    }
+
+    #answers {
+      @include mcolumn;
+      @media screen and (max-width: 480px) {
+        border-bottom: 5px solid #BDBDBD;
+        margin-bottom: 10px;
+      }
+
+      .answersGroup {
+        @include mcolumn;
+
+      }
+      .comments {
+        @include mcolumn;
+
+        #pointer {
+          height: 0;
+          width: 0;
+          border-top: 0px white solid;
+          border-right: 1.1em white solid;
+          border-bottom: 0.8em #DBE6F0 solid;
+          border-left: 1.1em white solid;
+          margin-left: 10px
+        }
+        h4 {
+          line-height: 1em;
+          font-size: 0.9em;
+          font-weight: normal;
+
+          i {
+            margin-top: 1.5px;
+          }
+        }
+        .wrap {
+          background: #DBE6F0;
+          padding: 5px;
+
+          .comment-entry-show {
+            font-weight: bold;
+
+          }
+          .comment-entry {
+            display: none;
+            margin-top: 5px;
+            width: 98%;
+
+            form {
+              margin-bottom: 1px;
+              textarea {
+                width: 98%;
+                height: 20px;
+                margin-bottom: 0;
+              }
+            }
+            input[type="submit"] {
+              font-size: 11px;
+            }
+          }
+        }
+        article {
+          @include mcolumn(99%);
+
+          border-bottom: 1px solid #fff;
+          padding: 3px 1px;
+          font-size: 0.9em;
+          margin-bottom: 5px;
+
+          .img{
+            @include mcolumn(6%, false);
+            min-width: 25px;
+          }
+          .body{
+            @include mcolumn(87%);
+            line-height: 1.5em;
+          }
+          .name {
+            font-size: 1em;
+            color: #0059B8;
+          }
+          a.name {
+            font-size: 0.9em;
+            color: #757575;
+          }
+          small {
+            font-size: 0.9em;
+            color: #A8A8A8;
+            margin-left: 6px;
+          }
+        }
+      }
+      #create-answer {
+        margin-top: 20px;
+
+        h2 {
+          margin: 5px 0;
+          color: maroon;
+          border: none;
+        }
+        #actions {
+          margin-top: 10px;
+          height: 30px;
+        }
+        textarea {
+          width: 97%;
+          height: 4em;
+        }
+      }
+    }
+  }
+}

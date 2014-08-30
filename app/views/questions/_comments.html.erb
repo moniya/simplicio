@@ -1,0 +1,17 @@
+<div class="outer-wrap">
+  <div id="pointer"></div>
+  <div class="wrap">
+    <div class="inner-wrap" data-answer-id=<%= answer.id %>>
+      <%= render comments %>
+    </div>
+    <div class="comment-button-wrap">
+      <%= content_tag(:a, "Add comment", :href => "#", :class => "comment-entry-show label") %>
+    </div>
+    <div class="comment-entry">
+      <%= form_for [answer, Comment.new], remote: true do |f| %>
+          <%= f.text_area :text, :rows => "4", :cols => "20" %>
+          <%= f.submit "Submit", id: 'comment-btn', :class => "btn btn-success", data: {text: "Submit"} %>
+      <% end %>
+    </div>
+  </div>
+</div>

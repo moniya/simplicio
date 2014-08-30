@@ -1,0 +1,1212 @@
+/* line 4, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_validation.scss */
+body .validation-summary-errors ul {
+  margin-left: 0px;
+}
+/* line 6, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_validation.scss */
+body .validation-summary-errors ul li {
+  list-style: none;
+  color: red;
+  font-weight: bold;
+}
+/* line 11, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+body .validation-summary-errors ul li li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+/* line 3, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_modal.scss */
+body .modal {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 550px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body .modal {
+  overflow-x: hidden;
+}
+/* line 5, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_modal.scss */
+body .modal .modal-header {
+  padding: 5px 20px;
+}
+/* line 8, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_modal.scss */
+body .modal .modal-body {
+  padding: 5px 20px;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 510px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body .modal .modal-body {
+  overflow-x: hidden;
+}
+/* line 11, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_modal.scss */
+body .modal .modal-body #photo {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 110px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body .modal .modal-body #photo {
+  overflow-x: hidden;
+}
+/* line 14, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_modal.scss */
+body .modal .modal-body #core {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 390px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body .modal .modal-body #core {
+  overflow-x: hidden;
+}
+/* line 18, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_modal.scss */
+body .modal .modal-footer {
+  padding: 5px 20px;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 510px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body .modal .modal-footer {
+  overflow-x: hidden;
+}
+/* line 20, ../sass/screen.scss */
+body #container {
+  width: 910px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  padding-top: 60px;
+  font-size: 13px;
+}
+/* line 4, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_containerbase.scss */
+body #container #forms fieldset {
+  width: 50%;
+  margin: auto;
+}
+/* line 9, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_containerbase.scss */
+body #container #forms .input-xlarge {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 17px;
+  height: 30px;
+}
+/* line 17, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_containerbase.scss */
+body #container .content {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 550px;
+  margin-right: 80px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container .content {
+  overflow-x: hidden;
+}
+/* line 20, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_containerbase.scss */
+body #container .content h1 {
+  font-size: 17px;
+  border-bottom: 1px #EEE solid;
+}
+/* line 24, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_containerbase.scss */
+body #container .content h2 {
+  font-size: 13px;
+  line-height: 1.5em;
+  border-bottom: 1px #ccc solid;
+}
+/* line 29, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_containerbase.scss */
+body #container .content h3 {
+  line-height: 1em;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+/* line 33, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_containerbase.scss */
+body #container .content h3 small {
+  font-size: 11px;
+}
+/* line 5, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .no-label {
+  border-left: 4px #fff solid;
+}
+/* line 8, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .green-label {
+  border-left: 4px green solid;
+}
+/* line 11, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .blue-label {
+  border-left: 4px #48B5E0 solid;
+}
+/* line 14, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .red-label {
+  border-left: 4px red solid;
+}
+/* line 17, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .orange-label {
+  border-left: 4px orange solid;
+}
+/* line 21, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page #h1-wrap {
+  border-bottom: 1px solid #EEE;
+  padding-bottom: 5px;
+}
+/* line 24, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page #h1-wrap h1 {
+  border: none;
+  width: 80%;
+  float: left;
+}
+/* line 30, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page #new-question {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 550px;
+  display: none;
+  border-bottom: 1px #EEE solid;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #index-page #new-question {
+  overflow-x: hidden;
+}
+/* line 34, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page #new-question h2 {
+  width: 96%;
+  float: left;
+  margin-bottom: 10px;
+  border: none;
+}
+/* line 40, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page #new-question textarea {
+  width: 540px;
+  height: 72px;
+}
+/* line 44, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page #new-question form {
+  margin-bottom: 5px;
+}
+/* line 47, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page #new-question #actions {
+  margin-top: 10px;
+  height: 30px;
+  position: relative;
+}
+/* line 51, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page #new-question #actions #buttons {
+  position: absolute;
+  right: 0;
+}
+/* line 57, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .question-summary {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 542px;
+  padding: 10px 0;
+  padding-left: 5px;
+  border-bottom: 1px #EEE solid;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #index-page .question-summary {
+  overflow-x: hidden;
+}
+/* line 62, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .question-summary .pic {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 30px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #index-page .question-summary .pic {
+  overflow-x: hidden;
+}
+/* line 65, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .question-summary .main {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 502px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #index-page .question-summary .main {
+  overflow-x: hidden;
+}
+/* line 67, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .question-summary .main h2 {
+  line-height: 1.2em;
+  border-bottom: none;
+}
+/* line 70, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .question-summary .main h2 a {
+  color: black;
+  font-weight: normal;
+  display: block;
+}
+/* line 75, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .question-summary .main h2 small {
+  color: #BFBFBF;
+  font-size: 10px;
+}
+/* line 80, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .question-summary .main .info-bar {
+  position: relative;
+}
+/* line 82, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .question-summary .main .info-bar span {
+  margin-right: 5px;
+  color: #1A1A1A;
+  font-size: 10px;
+}
+/* line 87, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .question-summary .main .info-bar .time {
+  color: #999;
+}
+/* line 90, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .question-summary .main .info-bar .votes {
+  color: teal;
+}
+/* line 93, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .question-summary .main .info-bar .user {
+  color: gray;
+  font-size: 11px;
+  position: absolute;
+  right: 0px;
+  font-family: tahoma;
+  font-size: .8em;
+  font-weight: bold;
+}
+/* line 101, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_indexpage.scss */
+body #container #index-page .question-summary .main .info-bar .user a {
+  color: gray;
+}
+/* line 4, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page h1 {
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+/* line 8, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page h2 {
+  line-height: 1.7em;
+}
+/* line 11, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #question-body {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 550px;
+  border-bottom: 1px #ccc solid;
+  background: #FAFAFA;
+  padding: 15px 0;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #post-page #question-body {
+  overflow-x: hidden;
+}
+/* line 2, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #question-body .vote {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 50px;
+  font-size: 18px;
+  font-family: segoe ui;
+  background-position: 4px 30px;
+  height: 70px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #post-page #question-body .vote {
+  overflow-x: hidden;
+}
+/* line 8, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #question-body .vote .vote-link {
+  background: url("/_cassette/file/Content/images/icons/arrow16_2c5f3bf096885f990eb222ff02a2e26df4dfe304_png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 22px;
+  width: 32px;
+  display: block;
+  padding-right: 18px;
+  color: black;
+  text-align: right;
+}
+/* line 19, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #question-body .vote .vote-link:hover {
+  text-decoration: none;
+}
+/* line 23, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #question-body .core {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 450px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #post-page #question-body .core {
+  overflow-x: hidden;
+}
+/* line 26, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #question-body .core h3 .name {
+  color: #0059B8;
+}
+/* line 29, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #question-body .core h3 .rep {
+  font-weight: bold;
+  color: #9E9E9E;
+  text-decoration: none;
+  font-family: verdana;
+  font-size: .7em;
+}
+/* line 36, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #question-body .core h3 small {
+  font-family: verdana;
+  font-size: .66em;
+}
+/* line 41, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #question-body .core .action-bar {
+  margin-top: 10px;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #post-page #question-body .core .action-bar {
+  overflow-x: hidden;
+}
+/* line 44, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #question-body .core .action-bar .toggle-comments {
+  color: #A6A6A6;
+  font-size: .9em;
+}
+/* line 50, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #question-body .photo {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 30px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #post-page #question-body .photo {
+  overflow-x: hidden;
+}
+/* line 18, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 550px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #post-page #answers {
+  overflow-x: hidden;
+}
+/* line 20, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers #create-answer {
+  margin-top: 20px;
+}
+/* line 23, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers #create-answer h2 {
+  margin: 5px 0;
+  color: maroon;
+  border: none;
+}
+/* line 28, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers #create-answer #actions {
+  margin-top: 10px;
+  height: 30px;
+  position: relative;
+}
+/* line 32, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers #create-answer #actions #buttons {
+  position: absolute;
+  right: 0;
+}
+/* line 37, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers #create-answer textarea {
+  width: 540px;
+  height: 72px;
+}
+/* line 42, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers .answer {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 550px;
+  margin-top: 15px;
+  border-bottom: 1px #F2F2F2 solid;
+  padding-bottom: 5px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #post-page #answers .answer {
+  overflow-x: hidden;
+}
+/* line 2, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #answers .answer .vote {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 50px;
+  font-size: 18px;
+  font-family: segoe ui;
+  background-position: 4px 30px;
+  height: 70px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #post-page #answers .answer .vote {
+  overflow-x: hidden;
+}
+/* line 8, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #answers .answer .vote .vote-link {
+  background: url("/_cassette/file/Content/images/icons/arrow16_2c5f3bf096885f990eb222ff02a2e26df4dfe304_png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 22px;
+  width: 32px;
+  display: block;
+  padding-right: 18px;
+  color: black;
+  text-align: right;
+}
+/* line 19, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #answers .answer .vote .vote-link:hover {
+  text-decoration: none;
+}
+/* line 23, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #answers .answer .core {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 450px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #post-page #answers .answer .core {
+  overflow-x: hidden;
+}
+/* line 26, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #answers .answer .core h3 .name {
+  color: #0059B8;
+}
+/* line 29, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #answers .answer .core h3 .rep {
+  font-weight: bold;
+  color: #9E9E9E;
+  text-decoration: none;
+  font-family: verdana;
+  font-size: .7em;
+}
+/* line 36, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #answers .answer .core h3 small {
+  font-family: verdana;
+  font-size: .66em;
+}
+/* line 41, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #answers .answer .core .action-bar {
+  margin-top: 10px;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #post-page #answers .answer .core .action-bar {
+  overflow-x: hidden;
+}
+/* line 44, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #answers .answer .core .action-bar .toggle-comments {
+  color: #A6A6A6;
+  font-size: .9em;
+}
+/* line 50, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_inside.scss */
+body #container #post-page #answers .answer .photo {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 30px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #post-page #answers .answer .photo {
+  overflow-x: hidden;
+}
+/* line 48, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers .answer .comments {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 450px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #post-page #answers .answer .comments {
+  overflow-x: hidden;
+}
+/* line 50, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers .answer .comments h4 {
+  line-height: 1em;
+  font-size: 13px;
+  font-weight: normal;
+}
+/* line 55, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers .answer .comments .wrap {
+  background: #E2EBF3;
+  padding: 5px;
+  margin-top: 10px;
+  display: none;
+}
+/* line 60, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers .answer .comments .wrap .comment-entry-show {
+  margin: 5px;
+}
+/* line 63, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers .answer .comments .wrap .comment-entry {
+  display: none;
+  margin-top: 5px;
+}
+/* line 68, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers .answer .comments article {
+  border-bottom: 1px solid #fff;
+  padding: 5px 0;
+  font-size: 12px;
+}
+/* line 72, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers .answer .comments article .name {
+  font-size: .8em;
+  color: #0059B8;
+}
+/* line 76, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_postpage.scss */
+body #container #post-page #answers .answer .comments article small {
+  font-size: .75em;
+  color: #A8A8A8;
+  margin-left: 6px;
+  font-family: verdana;
+}
+/* line 3, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 790px;
+  margin-left: 40px;
+}
+/* line 4, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .over-inline {
+  background: yellow;
+}
+/* line 7, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page #h1-wrap {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 790px;
+  border-bottom: 1px solid #EEE;
+  padding-bottom: 5px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #profile-page #h1-wrap {
+  overflow-x: hidden;
+}
+/* line 11, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page #h1-wrap h1 {
+  border: none;
+  width: 60%;
+  float: left;
+}
+/* line 16, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page #h1-wrap button {
+  margin-top: 7px;
+  float: right;
+}
+/* line 20, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page #h1-wrap .spin-me {
+  position: absolute;
+  top: 84px;
+  right: 250px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #profile-page {
+  overflow-x: hidden;
+}
+/* line 28, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page h1, body #container #profile-page h2, body #container #profile-page h3 {
+  font-family: tahoma;
+  font-size: 13px;
+  margin-bottom: 5px;
+  line-height: 24px;
+  padding-left: 5px;
+  border-bottom: 1px solid #EEE;
+}
+/* line 36, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .board {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 790px;
+  margin-bottom: 5px;
+  border-top: 1px solid #DDD;
+  border-bottom: 1px #EEE solid;
+  padding-top: 2px;
+  padding-bottom: 0px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #profile-page .board {
+  overflow-x: hidden;
+}
+/* line 43, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .board #image {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 130px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #profile-page .board #image {
+  overflow-x: hidden;
+}
+/* line 46, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .board #bio {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 250px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #profile-page .board #bio {
+  overflow-x: hidden;
+}
+/* line 49, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .board #description {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 390px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #profile-page .board #description {
+  overflow-x: hidden;
+}
+/* line 52, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .board h1 {
+  font-variant: small-caps;
+  font-size: 20px;
+  line-height: 1em;
+  padding-left: 0;
+}
+/* line 59, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 390px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #profile-page .column {
+  overflow-x: hidden;
+}
+/* line 61, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column .widget {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 390px;
+  border: 1px #E3E3E3 solid;
+  background: #fcfcfc;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #profile-page .column .widget {
+  overflow-x: hidden;
+}
+/* line 69, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column .widget .question-block {
+  font-weight: bold;
+}
+/* line 72, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column .widget .answer-block {
+  border-left: 3px solid #239DCD;
+  margin-left: 5px;
+  padding-left: 5px;
+  margin-top: 5px;
+  color: #333;
+}
+/* line 79, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column .widget ul {
+  list-style: none;
+  padding-left: 5px;
+  margin-left: 0;
+}
+/* line 11, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+body #container #profile-page .column .widget ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+/* line 83, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column .widget ul li {
+  margin-bottom: 5px;
+}
+/* line 85, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column .widget ul li .owner-name {
+  margin-left: 5px;
+}
+/* line 88, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column .widget ul li a {
+  font-weight: bold;
+  color: #454545;
+}
+/* line 94, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column .widget .piclist {
+  margin-bottom: 0;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 350px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #profile-page .column .widget .piclist {
+  overflow-x: hidden;
+}
+/* line 97, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column .widget .piclist li {
+  float: left;
+  margin-right: 5px;
+}
+/* line 102, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column .widget h3 {
+  background: whiteSmoke;
+}
+/* line 105, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column .widget h4 {
+  font-size: 13px;
+  margin-left: 5px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+/* line 114, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column #answers ul li {
+  margin-bottom: 8px;
+  color: #454545;
+}
+/* line 117, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column #answers ul li .date {
+  font-size: 0.85em;
+}
+/* line 120, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .column #answers ul li a {
+  color: #454545;
+}
+/* line 127, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_profilepage.scss */
+body #container #profile-page .second {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 390px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #profile-page .second {
+  overflow-x: hidden;
+}
+/* line 3, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_categoriespage.scss */
+body #container #categories-page {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 790px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #categories-page {
+  overflow-x: hidden;
+}
+/* line 5, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_categoriespage.scss */
+body #container #categories-page .category {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 690px;
+  line-height: 3em;
+  border-bottom: 1px solid #EEE;
+  border-left: 5px #fff solid;
+  padding-left: 5px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #categories-page .category {
+  overflow-x: hidden;
+}
+/* line 11, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_categoriespage.scss */
+body #container #categories-page .category .follow-cat {
+  font-size: 11px;
+  padding: 2px;
+}
+/* line 15, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_categoriespage.scss */
+body #container #categories-page .category .name {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 270px;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #categories-page .category .name {
+  overflow-x: hidden;
+}
+/* line 20, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_categoriespage.scss */
+body #container #categories-page .category .post-count {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 110px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #categories-page .category .post-count {
+  overflow-x: hidden;
+}
+/* line 23, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_categoriespage.scss */
+body #container #categories-page .category .follower-count {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 130px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #categories-page .category .follower-count {
+  overflow-x: hidden;
+}
+/* line 26, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_categoriespage.scss */
+body #container #categories-page .category .follow {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 50px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #categories-page .category .follow {
+  overflow-x: hidden;
+}
+/* line 28, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_categoriespage.scss */
+body #container #categories-page .category .follow button {
+  padding: 1px 7px;
+  font-size: 10px;
+}
+/* line 33, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_categoriespage.scss */
+body #container #categories-page .category .colors {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 70px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #categories-page .category .colors {
+  overflow-x: hidden;
+}
+/* line 35, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_categoriespage.scss */
+body #container #categories-page .category .colors select {
+  font-size: 13px;
+  height: 18px;
+  width: 71px;
+  margin-top: 12px;
+}
+/* line 43, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_categoriespage.scss */
+body #container #categories-page h1 {
+  font-size: 20px;
+  border-bottom: 1px #BABABA solid;
+}
+/* line 3, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_aside.scss */
+body #container aside {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 270px;
+  list-style: none;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container aside {
+  overflow-x: hidden;
+}
+/* line 11, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+body #container aside li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+/* line 6, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_aside.scss */
+body #container aside h1 {
+  font-size: 17px;
+  border-bottom: 1px #EEE solid;
+  position: relative;
+}
+/* line 11, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_aside.scss */
+body #container aside h2 {
+  font-size: 16px;
+}
+/* line 14, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_aside.scss */
+body #container aside h3 {
+  color: maroon;
+  line-height: 1em;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+/* line 18, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_aside.scss */
+body #container aside h3 small {
+  font-size: 11px;
+}
+/* line 22, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_aside.scss */
+body #container aside section {
+  margin-top: 10px;
+  border-bottom: 1px dashed #EEE;
+}
+/* line 25, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_aside.scss */
+body #container aside section a {
+  color: #00438A;
+}
+/* line 29, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_aside.scss */
+body #container aside ul {
+  margin-left: 0;
+}
+/* line 32, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_aside.scss */
+body #container aside li {
+  margin-bottom: 8px;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+/* line 38, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_aside.scss */
+body #container aside #top-users li {
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+/* line 4, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page a {
+  color: #0056B3;
+}
+/* line 7, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page aside {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 230px;
+  margin-left: 30px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page aside {
+  overflow-x: hidden;
+}
+/* line 10, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page aside a {
+  font-weight: normal;
+}
+/* line 13, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page aside ul#top-activities {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 230px;
+  margin-top: 10px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page aside ul#top-activities {
+  overflow-x: hidden;
+}
+/* line 16, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page aside ul#top-activities li {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 230px;
+  border-bottom: 1px dotted #DBDBDB;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page aside ul#top-activities li {
+  overflow-x: hidden;
+}
+/* line 19, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page aside ul#top-activities li .rank {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 10px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -o-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -khtml-border-radius: 25px;
+  border-radius: 25px;
+  width: 20px;
+  display: inline-block;
+  background: black;
+  color: #EEE;
+  height: 20px;
+  text-align: center;
+  line-height: 1.6;
+  font-family: tahoma;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page aside ul#top-activities li .rank {
+  overflow-x: hidden;
+}
+/* line 31, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page aside ul#top-activities li .text {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 170px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page aside ul#top-activities li .text {
+  overflow-x: hidden;
+}
+/* line 34, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page aside ul#top-activities li .votes {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 10px;
+  font-weight: normal;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page aside ul#top-activities li .votes {
+  overflow-x: hidden;
+}
+/* line 37, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page aside ul#top-activities li .votes a {
+  color: #00438A;
+}
+/* line 44, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 630px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page #feed-page-content {
+  overflow-x: hidden;
+}
+/* line 46, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #infobar {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page #feed-page-content #infobar {
+  overflow-x: hidden;
+}
+/* line 50, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page #feed-page-content #stream {
+  overflow-x: hidden;
+}
+/* line 52, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream h2 {
+  font-size: 16px;
+  border-bottom: 1px solid #DDD;
+}
+/* line 56, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream .stream-item {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+  margin-top: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page #feed-page-content #stream .stream-item {
+  overflow-x: hidden;
+}
+/* line 61, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream .stream-item .caption {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.6em;
+  line-height: 1.3em;
+  margin-bottom: 2px;
+}
+/* line 67, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream .stream-item .caption .owner-name {
+  font-weight: bold;
+  font-style: normal;
+  margin-left: 5px;
+}
+/* line 72, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream .stream-item .caption .activity-date {
+  font-family: tahoma;
+  font-size: 10px;
+  color: #5E5E5E;
+}
+/* line 77, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream .stream-item .caption a {
+  color: #172330;
+}
+/* line 81, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream .stream-item .post-title {
+  color: #0059B8;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+/* line 86, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream .stream-item .stream-content {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page #feed-page-content #stream .stream-item .stream-content {
+  overflow-x: hidden;
+}
+/* line 88, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream .stream-item .stream-content .votes {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 22px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  background: beige;
+  padding: 3px;
+  height: 10px;
+  line-height: 10px;
+  text-align: center;
+  font-family: tahoma;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page #feed-page-content #stream .stream-item .stream-content .votes {
+  overflow-x: hidden;
+}
+/* line 98, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream .stream-item .stream-content .stream-main-content {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 422px;
+}
+/* line 147, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.4/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #container #feed-page #feed-page-content #stream .stream-item .stream-content .stream-main-content {
+  overflow-x: hidden;
+}
+/* line 100, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream .stream-item .stream-content .stream-main-content h4 {
+  line-height: 18px;
+  font-size: 12px;
+  font-family: segoe ui;
+}
+/* line 104, C:/Users/Mayor/Documents/Visual Studio 2010/Projects/Sharebot/Sharebot.UI/Content/sass/partials/_feedpage.scss */
+body #container #feed-page #feed-page-content #stream .stream-item .stream-content .stream-main-content h4 .by {
+  font-weight: normal;
+}

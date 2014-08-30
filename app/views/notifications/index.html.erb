@@ -1,0 +1,15 @@
+<% title "Notifications" %>
+<div id="feed-page" class="notifications">
+  <div class="content">
+    <div id="stream">
+      <h2>
+        Notifications
+      </h2>
+      <% if @notifications.empty? %>
+           <h3>You do not have any notifications.</h3>
+      <% else %>
+          <%= render @notifications, :locals => {:current_user => current_user} %>
+      <% end %>
+    </div>
+  </div>
+</div>

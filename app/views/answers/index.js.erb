@@ -1,0 +1,28 @@
+(function () {
+    <% if @answers.empty? %>
+    setTimeout(SHAREHUB.polling.updateAnswers, 8000);
+    <% else %>
+    $("<%= j(render @answers )%>")
+            .appendTo('.answersGroup')
+            .hide()
+            .slideDown()
+            .animate({
+                backgroundColor:"yellow"
+            }, 5000)
+            .animate({
+                backgroundColor:"#fff"
+            }, 15000)
+
+    var answerCount =
+            $('.answer')
+                    .length;
+
+    $('#answers')
+            .find('h2')
+            .first()
+            .text(answerCount + ' ' + (answerCount == 1 ? 'Answer' : 'Answers'));
+
+    window.latestAnswerTime = <%= @answers.last.created_at.to_i %>;
+    setTimeout(SHAREHUB.polling.updateAnswers, 8000);
+    <%end%>
+})();

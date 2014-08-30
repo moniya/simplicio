@@ -1,0 +1,25 @@
+<section id="new-question">
+  <h2>
+    New Question
+  </h2>
+
+  <%= form_for(Question.new) do |f| %>
+      <div class="field">
+        <%= f.text_field :title, :placeholder => "Title" %>
+      </div>
+      <div class="field">
+        <%= f.text_area :text, :placeholder => "Body"%>
+      </div>
+      <div class="field">
+        <%= text_field_tag :tags, "", :placeholder => "Tags" %>
+        <em>Enter multiple tags by separating each with a comma. [eg. math, economics, history]</em>
+      </div>
+      <div class="actions">
+        <div id="buttons">
+          <%= f.button "Submit", :type => 'submit', :class => "btn btn-info" %>
+        </div>
+      </div>
+
+  <% end %>
+
+</section>

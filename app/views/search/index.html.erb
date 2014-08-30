@@ -1,0 +1,26 @@
+<div id="index-page">
+  <div class="content">
+    <% if @questions.size > 0 %>
+        <h1>
+          <% if params[:query] =~ /^tag:/ %>
+              Questions tagged with <em> "<%= params[:query].gsub(/^tag:/, "") %>" </em>
+          <% else %>
+              Search Results for <em>"<%= params[:query] %></em>"
+          <% end %>
+        </h1>
+        <% @questions.each do |question| %>
+            <%= render :partial => "questions/question", :locals => {:question => question} %>
+        <% end %>
+    <% else %>
+        <section class="question-summary  ">
+          Your search yields no results.
+        </section>
+    <% end %>
+  </div>
+  <aside>
+    <h2>
+      Dashboard</h2>
+
+    <%= render "dashboard/top_users" %>
+  </aside>
+</div>

@@ -1,0 +1,20 @@
+<div id="feed-page">
+  <div class="content">
+    <div id="stream">
+      <h2>
+        Activity
+      </h2>
+      <%= render @activities, :locals=>{:current_user=>current_user}%>
+    </div>
+    <ul class="pager">
+          <li>
+            <%=	 link_to "show more", activities_path, id: "more-feed", class: "more"  %>
+          </li>
+        </ul>
+  </div>
+  <aside>
+    <h2>
+      Dashboard</h2>
+    <%= render 'dashboard/top_activities' %>
+  </aside>
+</div>

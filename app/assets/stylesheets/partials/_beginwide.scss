@@ -1,0 +1,21 @@
+
+@mixin beginwide {
+  body{
+    padding-top: 60px;
+    .navbar .nav {
+      margin: 0 2px 0 0;
+    }
+  }
+  #container {
+    width: percentage(910px/1280px);
+    margin-left: percentage(200px/1280px);
+    margin-top: 0px;
+
+    input[type="password"], input[type="email"], input[type="text"], textarea {
+      width: 97%;
+    }
+    textarea{
+      height: 200px;
+    }
+  }
+}

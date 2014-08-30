@@ -1,0 +1,26 @@
+@mixin profilepagewide {
+  #profile-page {
+
+    .board {
+      @include mcolumn(100%);
+
+      margin-bottom: 5px;
+      border-top: 1px solid #DDD;
+      border-bottom: 1px #EEE solid;
+      padding-top: 2px;
+      padding-bottom: 0px;
+      #image-and-bio {
+        @include mcolumn(100%);
+
+        #image {
+          @include mcolumn(10%, false);
+        }
+        #bio {
+          @include mcolumn(90%);
+        }
+      }
+
+    }
+
+  }
+}

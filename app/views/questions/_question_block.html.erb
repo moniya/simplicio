@@ -1,0 +1,20 @@
+<div id="question-body" class="post" data-id="<%= @question.id %>">
+  <div class="vote">
+    <%= link_to @question.votes_count, question_votes_path(:question_id => @question.id), :method => :post, :remote => true, :id => "vote_#{Post}_#{@question.id}", :class => "badge #{badge_color(current_user, @question)}" %>
+
+    <div class="photo">
+      <%= image_tag @question.user.avatar.thumb.url, :alt => '' %>
+    </div>
+  </div>
+  <div class="core">
+    <h3>
+      <%= link_to @question.user.full_name, {:controller => 'users', :action => 'show', :id => @question.user.id} %>
+      <%= link_to "[+#{@question.user.score}]", {:controller => 'users', :action => 'show', :id => @question.user.id} %>
+
+    </h3>          <p>
+    <%= raw @question.text %></p>
+    <h4 class="time">
+      <i class="icon-time"></i> <small> <%= @question.created_at.my_format %> </small>
+    </h4>
+  </div>
+</div>

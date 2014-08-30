@@ -1,0 +1,13 @@
+<section class="widget">
+  <h3 class="head">
+    Reputation
+  </h3>
+  <ul>
+    <li>
+      <span class="rep-lbl"> Score:</span> <%= @user.score %>
+    </li>
+    <li>
+      <span class="rep-lbl"> Level: </span> <%= @user.level.display_name if @user.level %>
+    </li>
+  </ul>
+</section>

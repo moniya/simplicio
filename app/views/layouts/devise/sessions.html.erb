@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nerdlock</title>
+  <meta name="viewport" content="user-scalable=no, width=device-width" />
+
+  <!--[if lt IE 9]>
+  <script type="text/javascript">
+      document.createElement("nav");
+      document.createElement("header");
+      document.createElement("footer");
+      document.createElement("section");
+      document.createElement("aside");
+      document.createElement("article");
+  </script>
+  <![endif]-->
+  <%= stylesheet_link_tag "bootstrap" %>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= stylesheet_link_tag "wide", :media => "all and (min-width: 481px)" %>
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<nav>
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+
+          <a class="brand logo" href="#">Nerdlock</a>
+        </div>
+      </div>
+      <!-- /navbar-inner -->
+    </div>
+</nav>
+<div id="container">
+  <div id="login-page">
+    <%= yield %>
+  </div>
+</div>

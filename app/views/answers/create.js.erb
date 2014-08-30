@@ -1,0 +1,26 @@
+(function () {
+    $("<%= j(render @answer )%>")
+            .appendTo('.answersGroup')
+            .hide()
+            .slideDown()
+            .animate({
+                backgroundColor:"#FFFFAD"
+            }, 5000)
+            .animate({
+                backgroundColor:"#fff"
+            }, 15000)
+    ;
+    var answerForm = $("#new_answer");
+    answerForm[0].reset();
+    var answerCount =
+            $('.answer')
+                    .length;
+
+    $('#answers')
+            .find('h2')
+            .first()
+            .text(answerCount + ' ' + (answerCount == 1 ? 'Answer' : 'Answers'));
+
+    answerForm.find('#answerButton')
+            .attr({value:'Submit', disabled:false});
+})();

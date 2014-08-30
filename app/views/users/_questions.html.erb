@@ -1,0 +1,11 @@
+<section class="widget">
+  <h3 class="head">
+    Questions
+  </h3>
+
+  <ul id="questions">
+    <% @user.activities.where(:kind =>"create_question").each do |question| %>
+        <li> <i class="icon-asterisk"></i> <%= link_to question.data["question_title"], question_path(question.data["question_id"]) %></li>
+    <% end %>
+  </ul>
+</section>

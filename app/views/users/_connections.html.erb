@@ -1,0 +1,20 @@
+
+<section class="widget">
+  <h3 class="head">
+    Connections
+  </h3>
+  <h4>
+    Followers(<%= @user.followers.count %>)</h4>
+  <ul class="piclist">
+    <%= content_tag_for(:li, @user.followers) do |follower| %>
+        <%= image_tag follower.avatar.small_thumb.url %>
+    <% end %>
+  </ul>
+  <h4>
+    Follows(<%= @user.follows.count %>)</h4>
+  <ul class="piclist">
+    <%= content_tag_for(:li, @user.follows) do |follow| %>
+        <%= image_tag follow.avatar.small_thumb.url %>
+    <% end %>
+  </ul>
+</section>

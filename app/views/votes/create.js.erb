@@ -1,0 +1,8 @@
+(function () {
+    var selector = "#vote_<%= @vote.voteable_type %>_<%= @vote.voteable_id %>";
+    var link = $(selector);
+    var count = parseInt(link.text());
+    count = count + 1;
+    link.text(count);
+    link.addClass("badge-voted");
+})();

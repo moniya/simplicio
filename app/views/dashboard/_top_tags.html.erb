@@ -1,0 +1,14 @@
+<section id="tags">
+  <h3>
+   <i class="icon-tag"></i> Popular Tags
+  </h3>
+
+  <ul>
+    <% @top_tags.each do |tag| %>
+        <li>
+
+          <%= link_to "#{tag.name} [#{tag.taggings.size}]", search_path(:query => "tag:#{tag.name}"), {:class => "badge badge-inverse tag"} %>
+        </li>
+    <% end %>
+  </ul>
+</section>

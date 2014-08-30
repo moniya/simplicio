@@ -1,0 +1,89 @@
+@mixin aside {
+  aside {
+    @include mcolumn;
+    @include no-bullets;
+    #share {
+      @include mcolumn;
+      #twitter-wrap {
+        @include mcolumn(20%, false);
+
+      }
+      #fb-wrap {
+        @include mcolumn(30%);
+
+      }
+      #twitter, #fb {
+        background-repeat: no-repeat;
+        display: block;
+      }
+      #twitter {
+        background-image: asset-url('img/bird-sm.png', image);
+        height: 48px;
+        width: 48px;
+
+      }
+      #fb {
+        background-image: asset-url('img/fb.png', image);
+        height: 24px;
+        width: 24px;
+        margin-top: 12px;
+
+      }
+    }
+    h1 {
+      font-size: 17px;
+      border-bottom: 1px #EEE solid;
+      position: relative;
+    }
+    h2 {
+      font-size: 16px;
+      background: #000;
+      color: #fff;
+
+    }
+    h3 {
+      color: maroon;
+      line-height: 1em;
+      font-size: 13px;
+      margin-bottom: 10px;
+
+      i {
+        margin-top: 1px;
+      }
+      small {
+        font-size: 11px;
+      }
+    }
+    section {
+      margin-top: 10px;
+      border-bottom: 1px dashed #EEE;
+      a {
+        color: #00438A;
+        &.tag {
+          color: #fff;
+          font-weight: normal;
+        }
+      }
+      .label-inverse[href], .badge-inverse[href] {
+        background-color: #696969;
+      }
+
+    }
+    ul {
+      margin-left: 0;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 8px;
+      font-weight: bold;
+      line-height: 1.3em;
+    }
+    #top-users {
+      li {
+        margin-bottom: 8px;
+        font-weight: normal;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,14 @@
+<section id="contributors">
+  <h3>
+    <i class="icon-user"></i> Participants
+  </h3>
+
+  <ul>
+      <% @question.contributors.each do |user| %>
+          <li>
+            <%= image_tag user.avatar.small_thumb.url,  :alt => '' %>
+            <%= link_to "#{user.full_name} +[#{user.score}]", user_path(user) %>
+          </li>
+      <% end %>
+    </ul>
+</section>

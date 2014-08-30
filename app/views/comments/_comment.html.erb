@@ -1,0 +1,11 @@
+<% cache ['v3', comment] do %>
+    <article id="comment-<%= comment.id %>">
+      <div class="img">
+        <%= image_tag comment.user.avatar.small_thumb.url, :alt => '' %>
+      </div>
+      <div class="body">  <%= comment.text %>  -
+        <%= link_to comment.user.full_name, {:controller => 'users', :action => 'show', :id => comment.user.id}, {class: "name"} %>
+        <small><%= comment.created_at.my_format %></small>
+      </div>
+    </article>
+<% end %>
